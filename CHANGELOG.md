@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.0 — 2026-10-30
+
+- Align a multi-selection left, centre, right, top, middle or bottom.
+- Browser golden path grows to 29 checks.
+
 ## 1.8.0 — 2026-10-30
 
 - Back up every plan to one JSON file; restore creates copied plans.

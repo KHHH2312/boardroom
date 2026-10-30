@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.8.0** — back up every plan to one JSON file and restore it.
+> **New — 1.9.0** — align a multi-selection six ways.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -36,7 +36,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 |---|---|
 | **Infinite blueprint** | 32-unit snapping, pan, zoom-to-cursor and fit-to-plan. |
 | **Real tools** | Select, rectangle, ellipse, arrow, line, freehand, text, sticky note, hand. |
-| **Selection** | Move, corner-resize, duplicate, delete and z-order controls. |
+| **Selection** | Move, corner-resize, align the group, duplicate, delete and z-order. |
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
 | **History** | Fifty undo steps, redo, keyboard-first shortcuts and a ? shortcuts sheet. |
 | **Boards library** | Search, templates (Retro, Kanban, Wireframe), duplicate and delete; autosaved JSON. |
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.8.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.9.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -79,7 +79,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 ## Verified
 
 - Model/server suite: 50 checks green.
-- Browser golden path: 28 checks green — grid drawing, images, search, templates, shortcuts, backup/restore.
+- Browser golden path: 29 checks green — grid drawing, alignment, images, search, templates, backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
