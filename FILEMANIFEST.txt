@@ -2,7 +2,7 @@
 # sha256  bytes  path (relative to the app folder in the release zip)
 5a0d39fab5d3df51e91cd619fe61e6680a5560f8b9793477faf8f2fb0ca0228e  1088  Boardroom.cer
 ad3880269f1a418c4d9eab4309466e0dc62f29b29490d33deedee61ac67c4d1b  42  Boardroom.cmd
-adf6b8d7f8292bb4b81db42313bb85f957c669d063491c01ea93ea445d3aac6d  249806272  Boardroom.exe
+2c8999075706c78ea76917dea3c8e059f1a4797fdb4a93106288d11f7ee31892  249806272  Boardroom.exe
 5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d  1096  LICENSE
 7dac8267ac6da8d959cfe88f5f055b18a397f10230380b5329125e167bf5639b  5705935  LICENSES.chromium.html
 8e865e7cd40faabcbfb4cd2be16ee290023c3a28796c4f95451440d80174225d  568418  chrome_100_percent.pak
@@ -69,13 +69,13 @@ f4d5f15daf9f3dd422f52421b93f0b5f6791a9928facb0e1b6dfd894a3814281  1060438  local
 56b39b119f9dc0e38e8c67a556a02cbe877d9e00833c8922f05d8faee80bcb13  592033  locales/zh-TW.pak
 cbcc81ea563a657730993df15749a5b6093739d7c999b67a0bbc4114051ca1a6  13371569  resources.pak
 f58b7b6c4c0dff1206c39b2341238db7bbd66377838bc0787ad717dfbfc90d4f  1079  resources/app/LICENSE
-ac5ce0c4d18d34fec708065c3489b4ba6fa4ca334975456c78fb003a000d2fb6  2020  resources/app/README.md
+034fbdef44eecfda2544708bb58f8ce1752ee50af4efac7da7d1f271d48775ef  2057  resources/app/README.md
 818d4eb88735cdfa1a307356c925b9c98d1858acc4db5c16f7514b2c30e24c07  339  resources/app/THIRD-PARTY.md
-f4cfb0a455a54346c916adcd87890107f8213fe0ad277a7be67e1ff7873189ce  2553  resources/app/app.json
+71674c2170fd449edbdc7983deee34f2994ea48f187f6cda6d87e2b11a46548c  2569  resources/app/app.json
 cb6aa013f62401325a409a70f00128e4fed4f7634b9eb14c2caa6cb81bb7620e  12297  resources/app/build/icon.png
 d92da056ab75488a706e0239a96212559513c18cc263c79dc4f8cacf842382e3  2453  resources/app/electron/main.cjs
-128be6f8ab07ed7a75e427647e7d4509f28bfd38d548bc90efb425926eb2aadd  117  resources/app/package.json
-df94e9f64c4554817fc36b615f3b7936fb8fdaa5f77fd577beaa125d633e300a  80144  resources/app/public/app.mjs
+79c1b0d9012e013a98c19a39dc35247fb1cc055bc653ba0fcfcc654149d4a4c5  117  resources/app/package.json
+599f7b833163ae2ceba26c5c1b532ace132551e1fd9bb47febe8de97ff121b58  81047  resources/app/public/app.mjs
 98b9754e66caaf529cea2c703d2db64e2941ac8d099cb2799b1d8b6a64aa6555  417  resources/app/public/favicon.svg
 e553d58e140c0a9fc76b6c72b2ff4830a9f3d55501439e8aec0fa66c6ec26a82  11741  resources/app/public/index.html
 142887149cc17401036de4a743d5d5b0e08dde3af86cbebeb5b7d75a9223162f  30743  resources/app/public/styles.css
