@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 — 2026-10-30
+
+- Shift-click Export PNG to crop the file to the selected marks.
+- Browser golden path grows to 17 checks.
+
 ## 1.2.0 — 2026-10-30
 
 - Paste an image from the clipboard or drop a file on the stage, not just the toolbar picker.

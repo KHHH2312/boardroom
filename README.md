@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.2.0** — paste or drop an image straight onto the plan.
+> **New — 1.3.0** — Shift-click Export PNG to save only the selected marks.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.2.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.3.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -79,7 +79,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 ## Verified
 
 - Model/server suite: 47 checks green.
-- Browser golden path: 16 checks green — draw, autosave, undo, redo, image placement and drop, export readiness.
+- Browser golden path: 17 checks green — draw, autosave, undo, redo, image placement and drop, selection export.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
