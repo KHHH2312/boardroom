@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.7.0** — start a plan from Retro, Kanban or Wireframe templates.
+> **New — 1.8.0** — back up every plan to one JSON file and restore it.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -42,7 +42,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 | **Boards library** | Search, templates (Retro, Kanban, Wireframe), duplicate and delete; autosaved JSON. |
 | **Images** | Pick, paste or drop PNG/JPEG/WebP files; move, resize and layer them like any mark. |
 | **Export** | PNG for sharing, JSON for keeping the scene editable. |
-| **Local only** | Loopback server, strict CSP, no account and no telemetry. |
+| **Backup** | One JSON file for every plan; restore makes copied plans. Loopback only, no telemetry. |
 
 <div align="center">
 <img src="docs/boardroom-draw.png" alt="Boardroom" width="49%">
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.7.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.8.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -78,8 +78,8 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Verified
 
-- Model/server suite: 47 checks green.
-- Browser golden path: 26 checks green — grid drawing, images, search, templates and shortcuts.
+- Model/server suite: 50 checks green.
+- Browser golden path: 28 checks green — grid drawing, images, search, templates, shortcuts, backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy

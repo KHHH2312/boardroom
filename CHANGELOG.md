@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.8.0 — 2026-10-30
+
+- Back up every plan to one JSON file; restore creates copied plans.
+- Suite grows to 50 checks; browser path to 28.
+
 ## 1.7.0 — 2026-10-30
 
 - Board templates: Retrospective, Kanban and Wireframe start a populated, editable plan.
