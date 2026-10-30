@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0 — 2026-10-30
+
+- Search the board library by name; match count, no-match state, Escape to clear, Enter to open.
+- Browser golden path grows to 20 checks.
+
 ## 1.3.0 — 2026-10-30
 
 - Shift-click Export PNG to crop the file to the selected marks.

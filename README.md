@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.3.0** — Shift-click Export PNG to save only the selected marks.
+> **New — 1.4.0** — search the board library by name.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -39,7 +39,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 | **Selection** | Move, corner-resize, duplicate, delete and z-order controls. |
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
 | **History** | Fifty undo steps, redo, and keyboard-first shortcuts. |
-| **Boards library** | Create, rename, duplicate, delete; autosaved JSON per plan. |
+| **Boards library** | Search by name, then create, rename, duplicate or delete; autosaved JSON per plan. |
 | **Images** | Pick, paste or drop PNG/JPEG/WebP files; move, resize and layer them like any mark. |
 | **Export** | PNG for sharing, JSON for keeping the scene editable. |
 | **Local only** | Loopback server, strict CSP, no account and no telemetry. |
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.3.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.4.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -79,7 +79,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 ## Verified
 
 - Model/server suite: 47 checks green.
-- Browser golden path: 17 checks green — draw, autosave, undo, redo, image placement and drop, selection export.
+- Browser golden path: 20 checks green — draw, autosave, undo, redo, image placement and drop, selection export, library search.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
