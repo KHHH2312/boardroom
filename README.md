@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.1.0** — place PNG, JPEG and WebP images straight on the plan.
+> **New — 1.2.0** — paste or drop an image straight onto the plan.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -40,7 +40,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
 | **History** | Fifty undo steps, redo, and keyboard-first shortcuts. |
 | **Boards library** | Create, rename, duplicate, delete; autosaved JSON per plan. |
-| **Images** | Place PNG, JPEG or WebP files; move, resize and layer them like any mark. |
+| **Images** | Pick, paste or drop PNG/JPEG/WebP files; move, resize and layer them like any mark. |
 | **Export** | PNG for sharing, JSON for keeping the scene editable. |
 | **Local only** | Loopback server, strict CSP, no account and no telemetry. |
 
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.1.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.2.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -73,13 +73,13 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 1. Install and launch Boardroom.
 2. Open the library and start a new plan.
 3. Pick a tool (or shortcut V/R/O/A/L/P/T/N) and draw.
-4. Use **Image** to place a local PNG, JPEG or WebP on the plan.
+4. Use **Image**, paste, or drop a local PNG, JPEG or WebP on the plan.
 5. Undo/redo with Ctrl+Z / Ctrl+Shift+Z; export PNG or JSON from the top bar.
 
 ## Verified
 
 - Model/server suite: 47 checks green.
-- Browser golden path: 14 checks green — draw, autosave, undo, redo, image placement, export readiness.
+- Browser golden path: 16 checks green — draw, autosave, undo, redo, image placement and drop, export readiness.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
