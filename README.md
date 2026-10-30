@@ -6,7 +6,7 @@
 
 ### An infinite blueprint room for plans that stay on your machine.
 
-A local-first whiteboard with real tools, undo and PNG/JSON export.
+A local-first whiteboard with real tools, image placement, undo and PNG/JSON export.
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%20x64-0D2233?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/KHHH2312/boardroom/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/KHHH2312/boardroom?style=flat-square&color=0D2233)](https://github.com/KHHH2312/boardroom/releases)
@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 </div>
 
-> **New — 1.0.0** — infinite blueprint · real tools · selection · style rail.
+> **New — 1.1.0** — place PNG, JPEG and WebP images straight on the plan.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -40,6 +40,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
 | **History** | Fifty undo steps, redo, and keyboard-first shortcuts. |
 | **Boards library** | Create, rename, duplicate, delete; autosaved JSON per plan. |
+| **Images** | Place PNG, JPEG or WebP files; move, resize and layer them like any mark. |
 | **Export** | PNG for sharing, JSON for keeping the scene editable. |
 | **Local only** | Loopback server, strict CSP, no account and no telemetry. |
 
@@ -56,7 +57,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Install
 
-1. Download **Boardroom-1.0.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.1.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -72,12 +73,13 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 1. Install and launch Boardroom.
 2. Open the library and start a new plan.
 3. Pick a tool (or shortcut V/R/O/A/L/P/T/N) and draw.
-4. Undo/redo with Ctrl+Z / Ctrl+Shift+Z; export PNG or JSON from the top bar.
+4. Use **Image** to place a local PNG, JPEG or WebP on the plan.
+5. Undo/redo with Ctrl+Z / Ctrl+Shift+Z; export PNG or JSON from the top bar.
 
 ## Verified
 
-- Model/server suite: 44 checks green.
-- Browser golden path: 10 checks green — draw, autosave, undo, redo, export readiness.
+- Model/server suite: 47 checks green.
+- Browser golden path: 14 checks green — draw, autosave, undo, redo, image placement, export readiness.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
