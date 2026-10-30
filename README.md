@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 </div>
 
-> **New — 1.14.0** — image cover/contain fit, alignment guides and SVG export.
+> **New — 1.15.0** — bring to front and send to back, image fit, alignment guides and SVG export.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -47,6 +47,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 | **SVG export** | Export the plan or a selection as a true vector file with text, shapes and embedded images. |
 | **Alignment guides** | Drag near another mark’s edge or centre with grid snap off to see a guide and land exactly on it. |
 | **Image fit** | Switch a placed image between cover (crop to frame) and contain (whole image inside the frame). |
+| **Stack order** | Bring a mark to the front or send it to the back in one click, alongside one-step forward and back. |
 
 <div align="center">
 <img src="docs/boardroom-draw.png" alt="Boardroom" width="49%">
@@ -61,7 +62,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Install
 
-1. Download **Boardroom-1.14.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.15.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -81,8 +82,8 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Verified
 
-- Model/server suite: 62 checks green.
-- Browser golden path: 49 checks green — image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
+- Model/server suite: 64 checks green.
+- Browser golden path: 51 checks green — stack order, image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
