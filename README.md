@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.6.0** — a keyboard shortcuts sheet, on ? or KEYS.
+> **New — 1.7.0** — start a plan from Retro, Kanban or Wireframe templates.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -39,7 +39,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 | **Selection** | Move, corner-resize, duplicate, delete and z-order controls. |
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
 | **History** | Fifty undo steps, redo, keyboard-first shortcuts and a ? shortcuts sheet. |
-| **Boards library** | Search by name, then create, rename, duplicate or delete; autosaved JSON per plan. |
+| **Boards library** | Search, templates (Retro, Kanban, Wireframe), duplicate and delete; autosaved JSON. |
 | **Images** | Pick, paste or drop PNG/JPEG/WebP files; move, resize and layer them like any mark. |
 | **Export** | PNG for sharing, JSON for keeping the scene editable. |
 | **Local only** | Loopback server, strict CSP, no account and no telemetry. |
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.6.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.7.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -79,7 +79,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 ## Verified
 
 - Model/server suite: 47 checks green.
-- Browser golden path: 24 checks green — draw on the grid, images, selection export, library search, shortcuts sheet.
+- Browser golden path: 26 checks green — grid drawing, images, search, templates and shortcuts.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy

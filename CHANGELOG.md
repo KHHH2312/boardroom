@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.0 — 2026-10-30
+
+- Board templates: Retrospective, Kanban and Wireframe start a populated, editable plan.
+- Browser golden path grows to 26 checks.
+
 ## 1.6.0 — 2026-10-30
 
 - Keyboard shortcuts sheet on ? or the KEYS button.
