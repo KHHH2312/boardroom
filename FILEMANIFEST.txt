@@ -2,7 +2,7 @@
 # sha256  bytes  path (relative to the app folder in the release zip)
 5a0d39fab5d3df51e91cd619fe61e6680a5560f8b9793477faf8f2fb0ca0228e  1088  Boardroom.cer
 ad3880269f1a418c4d9eab4309466e0dc62f29b29490d33deedee61ac67c4d1b  42  Boardroom.cmd
-cbd694b061503e5d32f9bdd5f0f3ad118045f012102aaf4d01e85493689a7c35  249806272  Boardroom.exe
+1edc35bef4bf47b3f11d5465c78d610cc49e84f4075d30906c367d0dbd7e611f  249806272  Boardroom.exe
 5154e165bd6c2cc0cfbcd8916498c7abab0497923bafcd5cb07673fe8480087d  1096  LICENSE
 7dac8267ac6da8d959cfe88f5f055b18a397f10230380b5329125e167bf5639b  5705935  LICENSES.chromium.html
 8e865e7cd40faabcbfb4cd2be16ee290023c3a28796c4f95451440d80174225d  568418  chrome_100_percent.pak
@@ -69,16 +69,16 @@ f4d5f15daf9f3dd422f52421b93f0b5f6791a9928facb0e1b6dfd894a3814281  1060438  local
 56b39b119f9dc0e38e8c67a556a02cbe877d9e00833c8922f05d8faee80bcb13  592033  locales/zh-TW.pak
 cbcc81ea563a657730993df15749a5b6093739d7c999b67a0bbc4114051ca1a6  13371569  resources.pak
 f58b7b6c4c0dff1206c39b2341238db7bbd66377838bc0787ad717dfbfc90d4f  1079  resources/app/LICENSE
-5d6da92966c7ccad078efd0ed68fc99ea14177e331e8ae3d0a3b7cad05c3719c  2151  resources/app/README.md
+f7ad5d24ebae431875ff96c86f67c4bf94f97293f96a5a26818fa053002c381b  2170  resources/app/README.md
 818d4eb88735cdfa1a307356c925b9c98d1858acc4db5c16f7514b2c30e24c07  339  resources/app/THIRD-PARTY.md
-d77679eff1793df6638832808abac83281cd8eef7cda79c8b0bdf8c3fd539450  2637  resources/app/app.json
+5270de35c2b2126e691e3aed3b93f3883dc70a35497d3296e21c559b2b9c2aab  2645  resources/app/app.json
 cb6aa013f62401325a409a70f00128e4fed4f7634b9eb14c2caa6cb81bb7620e  12297  resources/app/build/icon.png
 d92da056ab75488a706e0239a96212559513c18cc263c79dc4f8cacf842382e3  2453  resources/app/electron/main.cjs
-f2d523b38c1e9dd25d52694e912a592f4539a1c883b26f774ced3880df5c5178  117  resources/app/package.json
-3ceb5ffcea31e9532b40047b63fe61ec6a0b477fbbdd3c707b802cd109994374  89495  resources/app/public/app.mjs
+97362afe950c53ab4ee584afa0d56176c6bad31b0f44e9a8ca7bc58fdd7c15a8  117  resources/app/package.json
+d84bb7c08de0adae790e18c3e09e169dd6de9823fc6d8ae1edf444679a8c089c  91743  resources/app/public/app.mjs
 98b9754e66caaf529cea2c703d2db64e2941ac8d099cb2799b1d8b6a64aa6555  417  resources/app/public/favicon.svg
 78655597ffda4d819ddca231247151a4098bd0d327c2f348a15fed6b913975b4  14491  resources/app/public/index.html
-6132efb4794047ff0527daed5d9f89f6691e279d20369d3a60a32076b5237a39  33110  resources/app/public/styles.css
+6578c12db64603db35124b9a5cffa8dae457632f1fab2091d5fd3e3a2f6cd3aa  33191  resources/app/public/styles.css
 5f6dee559aa005e344d974ed0c5fe795e4cb016f3a5a0b0d707a726d73227150  16612  resources/app/server.mjs
 a779b4e01f783718d26d102dd5e3e2ea5cc9acabec21da4dc2f13cd993c1fed9  19304  resources/app/shared/model.mjs
 8b801702b01eb58a209396b9041d8ead51f598e8c2a49fdf2819a87e47f3f290  13286  resources/app/shared/render.mjs
