@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.4.0** — search the board library by name.
+> **New — 1.5.0** — snap new marks, moves and resizes to the 32-unit grid.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -34,7 +34,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 | | |
 |---|---|
-| **Infinite blueprint** | Grid, pan, zoom-to-cursor and fit-to-plan. |
+| **Infinite blueprint** | 32-unit snapping, pan, zoom-to-cursor and fit-to-plan. |
 | **Real tools** | Select, rectangle, ellipse, arrow, line, freehand, text, sticky note, hand. |
 | **Selection** | Move, corner-resize, duplicate, delete and z-order controls. |
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
@@ -57,7 +57,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.4.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.5.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -79,7 +79,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 ## Verified
 
 - Model/server suite: 47 checks green.
-- Browser golden path: 20 checks green — draw, autosave, undo, redo, image placement and drop, selection export, library search.
+- Browser golden path: 22 checks green — draw on the grid, autosave, undo, redo, images, selection export, library search.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy

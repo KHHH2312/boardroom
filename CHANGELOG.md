@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.0 — 2026-10-30
+
+- 32-unit grid snapping for new marks, moves and resizes; toggle in the status bar or press G.
+- Browser golden path grows to 22 checks.
+
 ## 1.4.0 — 2026-10-30
 
 - Search the board library by name; match count, no-match state, Escape to clear, Enter to open.
