@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.0 — 2026-10-30
+
+- Keyboard shortcuts sheet on ? or the KEYS button.
+- Browser golden path grows to 24 checks.
+
 ## 1.5.0 — 2026-10-30
 
 - 32-unit grid snapping for new marks, moves and resizes; toggle in the status bar or press G.
