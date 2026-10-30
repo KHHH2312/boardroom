@@ -6,7 +6,7 @@
 
 ### An infinite blueprint room for plans that stay on your machine.
 
-A local-first whiteboard with real tools, image placement, undo and PNG/JSON export.
+A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%20x64-0D2233?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/KHHH2312/boardroom/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/KHHH2312/boardroom?style=flat-square&color=0D2233)](https://github.com/KHHH2312/boardroom/releases)
@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 </div>
 
-> **New — 1.9.0** — align a multi-selection six ways.
+> **New — 1.11.0** — lock marks against moves and deletes, and find any text on the plan.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -36,13 +36,14 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 |---|---|
 | **Infinite blueprint** | 32-unit snapping, pan, zoom-to-cursor and fit-to-plan. |
 | **Real tools** | Select, rectangle, ellipse, arrow, line, freehand, text, sticky note, hand. |
-| **Selection** | Move, corner-resize, align the group, duplicate, delete and z-order. |
+| **Selection** | Move, corner-resize, align the group, lock a mark against edits (Ctrl+L), duplicate, delete and z-order. |
+| **Find text** | Ctrl+F searches every text and sticky note on the plan; a hit selects the mark and centres the view. |
 | **Style rail** | Chalk and fill palettes, stroke widths, opacity and type size. |
-| **History** | Fifty undo steps, redo, keyboard-first shortcuts and a ? shortcuts sheet. |
+| **History** | Fifty undo steps, redo, and keyboard-first shortcuts. |
 | **Boards library** | Search, templates (Retro, Kanban, Wireframe), duplicate and delete; autosaved JSON. |
-| **Images** | Pick, paste or drop PNG/JPEG/WebP files; move, resize and layer them like any mark. |
-| **Export** | PNG for sharing, JSON for keeping the scene editable. |
-| **Backup** | One JSON file for every plan; restore makes copied plans. Loopback only, no telemetry. |
+| **Images** | Place, paste or drop PNG, JPEG and WebP images onto the plan. |
+| **Export** | PNG for sharing (Shift-click exports the selection), JSON for keeping the scene editable. |
+| **Local only** | Loopback server, strict CSP, no account and no telemetry. |
 
 <div align="center">
 <img src="docs/boardroom-draw.png" alt="Boardroom" width="49%">
@@ -57,7 +58,7 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 
 ## Install
 
-1. Download **Boardroom-1.9.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.11.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -73,13 +74,12 @@ A local-first whiteboard with real tools, image placement, undo and PNG/JSON exp
 1. Install and launch Boardroom.
 2. Open the library and start a new plan.
 3. Pick a tool (or shortcut V/R/O/A/L/P/T/N) and draw.
-4. Use **Image**, paste, or drop a local PNG, JPEG or WebP on the plan.
-5. Undo/redo with Ctrl+Z / Ctrl+Shift+Z; export PNG or JSON from the top bar.
+4. Undo/redo with Ctrl+Z / Ctrl+Shift+Z; export PNG or JSON from the top bar.
 
 ## Verified
 
-- Model/server suite: 50 checks green.
-- Browser golden path: 29 checks green — grid drawing, alignment, images, search, templates, backup/restore.
+- Model/server suite: 52 checks green.
+- Browser golden path: 41 checks green — locked marks, plan-wide text find, grid drawing, alignment, images, templates and backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
