@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 </div>
 
-> **New — 1.11.0** — lock marks against moves and deletes, and find any text on the plan.
+> **New — 1.14.0** — image cover/contain fit, alignment guides and SVG export.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -44,6 +44,9 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 | **Images** | Place, paste or drop PNG, JPEG and WebP images onto the plan. |
 | **Export** | PNG for sharing (Shift-click exports the selection), JSON for keeping the scene editable. |
 | **Local only** | Loopback server, strict CSP, no account and no telemetry. |
+| **SVG export** | Export the plan or a selection as a true vector file with text, shapes and embedded images. |
+| **Alignment guides** | Drag near another mark’s edge or centre with grid snap off to see a guide and land exactly on it. |
+| **Image fit** | Switch a placed image between cover (crop to frame) and contain (whole image inside the frame). |
 
 <div align="center">
 <img src="docs/boardroom-draw.png" alt="Boardroom" width="49%">
@@ -58,7 +61,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Install
 
-1. Download **Boardroom-1.11.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.14.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -78,8 +81,8 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Verified
 
-- Model/server suite: 52 checks green.
-- Browser golden path: 41 checks green — locked marks, plan-wide text find, grid drawing, alignment, images, templates and backup/restore.
+- Model/server suite: 62 checks green.
+- Browser golden path: 49 checks green — image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
