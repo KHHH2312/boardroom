@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 </div>
 
-> **New — 1.18.0** — match width / match height — size a selection to its widest or tallest mark.
+> **New — 1.19.0** — even centres - space a selection by middle points as well as by gaps.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -47,7 +47,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 | **Local only** | Loopback server, strict CSP, no account and no telemetry. |
 | **SVG export** | Export the plan or a selection as a true vector file with text, shapes and embedded images. |
 | **Alignment guides** | Drag near another mark’s edge or centre with grid snap off to see a guide and land exactly on it. |
-| **Align & distribute** | Select two or more marks and line them up on any edge or centre, size them all to the widest or tallest of the group, or space three or more evenly across and down — the outer two hold their places. |
+| **Align & distribute** | Select two or more marks and line them up on any edge or centre, size them all to the widest or tallest of the group, or space three or more evenly - by equal gaps, holding the outer two, or by equal distance between middle points. |
 | **Image fit** | Switch a placed image between cover (crop to frame) and contain (whole image inside the frame). |
 | **Stack order** | Bring a mark to the front or send it to the back in one click, alongside one-step forward and back. |
 
@@ -64,7 +64,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Install
 
-1. Download **Boardroom-1.18.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.19.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -84,8 +84,8 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Verified
 
-- Model/server suite: 92 checks green.
-- Browser golden path: 68 checks green — align, match size and distribute on a live selection with undo, sheet background cycle and persistence, stack order, image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
+- Model/server suite: 96 checks green.
+- Browser golden path: 69 checks green — align, match size and distribute on a live selection with undo, sheet background cycle and persistence, stack order, image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
