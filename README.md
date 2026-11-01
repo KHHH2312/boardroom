@@ -17,7 +17,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 </div>
 
-> **New — 1.15.0** — bring to front and send to back, image fit, alignment guides and SVG export.
+> **New — 1.16.0** — graph, dot, isometric or plain paper — per board, saved and exported.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -35,6 +35,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 | | |
 |---|---|
 | **Infinite blueprint** | 32-unit snapping, pan, zoom-to-cursor and fit-to-plan. |
+| **Sheet background** | Cycle the paper between graph grid, dot grid, isometric and plain — per board, saved with the plan and kept in PNG export. |
 | **Real tools** | Select, rectangle, ellipse, arrow, line, freehand, text, sticky note, hand. |
 | **Selection** | Move, corner-resize, align the group, lock a mark against edits (Ctrl+L), duplicate, delete and z-order. |
 | **Find text** | Ctrl+F searches every text and sticky note on the plan; a hit selects the mark and centres the view. |
@@ -62,7 +63,7 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Install
 
-1. Download **Boardroom-1.15.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
+1. Download **Boardroom-1.16.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/boardroom/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Boardroom-*-win32-x64.zip -Algorithm SHA256
@@ -82,8 +83,8 @@ A local-first whiteboard with real tools, undo and PNG/JSON export.
 
 ## Verified
 
-- Model/server suite: 64 checks green.
-- Browser golden path: 51 checks green — stack order, image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
+- Model/server suite: 69 checks green.
+- Browser golden path: 55 checks green — sheet background cycle and persistence, stack order, image fit, guides, SVG export, locked marks, plan-wide find and backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
